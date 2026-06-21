@@ -8,7 +8,7 @@ public class StudentDAO {
     
     public Connection dbConnection() throws SQLException, ClassNotFoundException{
         Class.forName("com.mysql.cj.jdbc.Driver");
-         return DriverManager.getConnection("jdbc:mysql://localhost:3306/school","root","Arunraj_04@2002");
+         return DriverManager.getConnection("jdbc:mysql://localhost:3306/school","root","Your_password");
     }
     
     public void insert(StudentModal e) throws SQLException, ClassNotFoundException{
